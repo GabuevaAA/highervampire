@@ -1,0 +1,62 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+.mainpage {
+box-sizing: border-box;
+position: absolute;
+width: 100vw;
+height: 5vw;
+border: 3px solid #FF005C;
+}
+nav > .mainpage {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > .mainpage > a{
+  color: white;
+  text-decoration: none;
+  font-size: 3vw;
+}
+.vampp {
+  width: 57vw;
+  font-size: 4vw;
+  color: #00FFE0;
+  top: 7.6vw;
+  left: 1vw;
+}
+.m1 {
+ top: 16vw;
+ left: 2vw;
+ height: 40vw;
+ width: 29vw;
+ position: absolute;
+}
+.m2 {
+ top: 16vw;
+ left: 35.5vw;
+ height: 40vw;
+ width: 29vw;
+ position: absolute;
+ }
+.m3 {
+ top: 16vw;
+ left: 69vw;
+ height: 40vw;
+ width: 29vw;
+ position: absolute;
+}
+.vamp3 {
+  width: 98vw;
+  height: 18vw;
+  font-size: 2.3vw;
+  color: #FF005C;
+  margin-top: 61vw;
+  left: 2vw;
+}

@@ -1,0 +1,107 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+  .mainpage {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 5vw;
+  border: 3px solid #FF005C;
+  }
+  nav > .mainpage {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav > .mainpage > a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+  .abi {
+      width: 57vw;
+      font-size: 4vw;
+      color: #00FFE0;
+      top: 7.6vw;
+      left: 3vw;
+  }
+  .gm1 {
+    height: 43vw;
+    width: 38vw;
+    left: 59vw;
+    top: 7vw;
+    position: absolute;
+  }
+  .gm2 {
+    height: 40vw;
+    width: 38vw;
+    left: 3vw;
+    top: 42vw;
+    position: absolute;
+  }
+  .com {
+    width: 50vw;
+  font-size: 3vw;
+  color: white;
+  top: 16.6vw;
+  left: 3vw;
+  }
+  .read >a {
+    width: 37vw;
+    font-size: 3vw;
+    color: #FF005C;
+    top: 38.6vw;
+    left: 3vw;
+    position: absolute;
+  }
+  .com2 {
+    width: 52vw;
+      font-size: 3vw;
+      color: white;
+      top: 48.6vw;
+      left: 45vw;
+  }
+  .read2 >a {
+    width: 37vw;
+    font-size: 3vw;
+    color: #FF005C;
+    top: 73.6vw;
+    left: 45vw;
+    position: absolute;
+  }
+  .box3 {
+  box-sizing: border-box;
+  display: flex;
+  bottom: -28vw;
+  width: 100vw;
+  height: 3vw;
+  border: 3px solid #00FFE0;
+  overflow-x: hidden;
+  }
+  .stroke1{
+    bottom:3vw;
+    background:#FF005C;
+    width: 100%;
+  }
+  .vd{
+    animation: v1 6s infinite linear;
+    font-size: 2vw;
+    color: #FF005C;
+    top: 0.6vw;
+    left: 0vw;
+  }
+  @keyframes v1 {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-10%);
+    }
+  }

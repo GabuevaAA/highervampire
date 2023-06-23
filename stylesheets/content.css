@@ -1,0 +1,167 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+.mainpage {
+box-sizing: border-box;
+display: flex;
+width: 100vw;
+height: 5vw;
+border: 3px solid #FF005C;
+}
+
+nav > .mainpage {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > .mainpage > a{
+  color: white;
+  text-decoration: none;
+  font-size: 3vw;
+}
+.higher {
+  font-size: 6vw;
+    color: #00FFE0;
+    margin-top: 29vw;
+    margin-left: 30vw;
+    position: absolute;
+}
+.box2 {
+box-sizing: border-box;
+display: flex;
+top:60vw;
+width: 100vw;
+height: 3vw;
+border: 3px solid #00FFE0;
+overflow-x: hidden;
+}
+.stroke{
+  bottom:3vw;
+  background:#FF005C;
+  width: 100%;
+}
+.v1{
+  animation: v1 6s infinite linear;
+  font-size: 2vw;
+  color: #FF005C;
+  top: 0.6vw;
+  left: 0vw;
+}
+@keyframes v1 {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+.pics img {
+  transition: all .9s ease-in-out;
+}
+.pics img:hover {
+  opacity: 1;
+  transition: all .9s ease-in-out;
+}
+.pll {
+  top: 10vw;
+  left:2vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0;
+}
+@keyframes pll {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.pl2 {
+  top: 7vw;
+    left: 42vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0%;
+}
+@keyframes pl2 {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+  }
+.pl3 {
+  top: 11vw;
+  left: 78vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0%;
+}
+@keyframes pl3 {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.pl4 {
+  top: 38vw;
+  left: 63vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0%;
+}
+@keyframes pl4 {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.pl5 {
+  top: 36vw;
+  left: 35vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0%;
+}
+@keyframes pl5 {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.pl6 {
+  top: 32vw;
+  left: 6vw;
+  height: 19vw;
+  width: 15vw;
+  position: absolute;
+  opacity: 0%;
+}
+@keyframes pl6 {
+  0%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

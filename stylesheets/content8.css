@@ -1,0 +1,269 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+  .mainpage {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 5vw;
+  border: 3px solid #FF005C;
+  }
+  nav > .mainpage {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav > .mainpage > a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+  .one {
+    height: 22vw;
+    width: 1vw;
+    left:24vw;
+    top:5vw;
+    position: absolute;
+  }
+  .two {
+    height: 69vw;
+    width: 1vw;
+    left: 28vw;
+    top: 48vw;
+    position: absolute;
+}
+.three {
+  height: 86vw;
+    width: 34vw;
+    left: 36vw;
+    top: 5vw;
+    position: absolute;
+}
+.four {
+  height: 75vw;
+    width: 34vw;
+    left: 38vw;
+    top: 83vw;
+    position: absolute;
+}
+.five {
+  height: 16vw;
+    width: 34vw;
+    left: 65vw;
+    top: 5vw;
+    position: absolute;
+}
+.six {
+  height: 85vw;
+    width: 34vw;
+    left: 66vw;
+    top: 24vw;
+    position: absolute;
+}
+.kep {
+  height: 24vw;
+    width: 20vw;
+    left: 15vw;
+    top: 26vw;
+    position: absolute;
+}
+.taro {
+  height: 24vw;
+    width: 20vw;
+    left: 18vw;
+    top: 107vw;
+    position: absolute;
+}
+.hood {
+  height: 24vw;
+    width: 20vw;
+    left: 42vw;
+    top: 82vw;
+    position: absolute;
+  }
+.phone {
+  height: 24vw;
+    width: 20vw;
+    left: 42vw;
+    top: 135vw;
+    position: absolute;
+}
+.shop {
+  height: 24vw;
+    width: 20vw;
+    left: 71vw;
+    top: 20vw;
+    position: absolute;
+}
+.crem {
+  height: 26vw;
+    width: 38vw;
+    left: 63vw;
+    top: 107vw;
+    position: absolute;
+}
+.kp {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 50vw;
+    left: 15vw;
+}
+.tr {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 131vw;
+    left: 18vw;
+}
+.hd {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 106vw;
+    left: 42vw;
+}
+.ch {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 159vw;
+    left: 42vw;
+}
+.sh {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 44vw;
+    left: 71vw;
+}
+.cr {
+  width: 57vw;
+    font-size: 3vw;
+    color: white;
+    top: 132vw;
+    left: 72vw;
+}
+.none{
+  display: none;
+}
+.gl1 {
+  height: 3vw;
+    width: 20vw;
+    left: 23vw;
+    top: 50vw;
+    position: absolute;
+}
+.gl2 {
+  height: 3vw;
+    width: 20vw;
+    left: 26vw;
+    top: 131vw;
+    position: absolute;
+}
+.gl3 {
+  height: 3vw;
+    width: 20vw;
+    left: 50vw;
+    top: 106vw;
+    position: absolute;
+  }
+.gl4 {
+  height: 3vw;
+    width: 20vw;
+    left: 50vw;
+    top: 159vw;
+    position: absolute;
+}
+.gl5 {
+  height: 3vw;
+    width: 20vw;
+    left: 79vw;
+    top: 44vw;
+    position: absolute;
+}
+.gl6 {
+  height: 3vw;
+    width: 38vw;
+    left: 71vw;
+    top: 132vw;
+    position: absolute;
+}
+.pp {
+  height: 3vw;
+    width: 20vw;
+    left: 23vw;
+    top: 50vw;
+    position: absolute;
+}
+.pp2 {
+  height: 3vw;
+    width: 20vw;
+    left: 79vw;
+    top: 44vw;
+    position: absolute;
+}
+.pp3 {
+  height: 3vw;
+    width: 20vw;
+    left: 26vw;
+    top: 131vw;
+    position: absolute;
+  }
+.pp4 {
+  height: 3vw;
+    width: 20vw;
+    left: 80vw;
+    top: 132vw;
+    position: absolute;
+}
+.pp5 {
+  height: 3vw;
+    width: 20vw;
+    left: 50vw;
+    top: 106vw;
+    position: absolute;
+}
+.pp6 {
+  height: 3vw;
+    width: 20vw;
+    left: 50vw;
+    top: 159vw;
+    position: absolute;
+}
+.box4 {
+box-sizing: border-box;
+display: flex;
+bottom: -112vw;
+width: 100vw;
+height: 3vw;
+border: 3px solid #00FFE0;
+overflow-x: hidden;
+}
+.stroke1{
+  bottom:3vw;
+  background:#FF005C;
+  width: 100%;
+}
+.vz{
+  animation: v1 6s infinite linear;
+  font-size: 2vw;
+  color: #FF005C;
+  top: 0.6vw;
+  left: 0vw;
+}
+@keyframes v1 {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}

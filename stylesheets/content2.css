@@ -1,0 +1,268 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+.mainpage {
+box-sizing: border-box;
+position: absolute;
+width: 100vw;
+height: 5vw;
+border: 3px solid #FF005C;
+}
+nav > .mainpage {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > .mainpage > a{
+  color: white;
+  text-decoration: none;
+  font-size: 3vw;
+}
+.vv {
+ top: 10vw;
+ left: 3vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: vv 15s ease-in-out infinite;
+}
+.pics > a >img:hover {
+  animation-play-state: paused;
+}
+.v2 {
+ top: 24vw;
+ left: 46vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v2 18s ease-in-out infinite;
+ }
+.v3 {
+ top: 28vw;
+ left: 80vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v3 16s ease-in-out infinite;
+}
+.v4 {
+ top: 9vw;
+ left: 63vw;
+ height: 19vw;
+ width: 15vw;
+ animation: v4 19s ease-in-out infinite;
+}
+.v5 {
+ top: 69vw;
+ left: 35vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v5 20s ease-in-out infinite;
+}
+.v6 {
+ top: 37vw;
+ left: 5vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v6 18s ease-in-out infinite;
+}
+.v7 {
+ top: 33vw;
+ left: 24vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v7 15s ease-in-out infinite;
+}
+.v8 {
+ top: 61vw;
+ left: 22vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v8 20s ease-in-out infinite;
+}
+.v9 {
+ top: 62vw;
+ left: 81vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v9 15s ease-in-out infinite;
+}
+.v10 {
+ top: 41vw;
+ left: 63vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v10 17s ease-in-out infinite;
+}
+.v11 {
+ top: 52vw;
+ left: 42vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v11 19s ease-in-out infinite;
+}
+.v12 {
+ top: 9vw;
+ left: 25vw;
+ height: 19vw;
+ width: 15vw;
+ position: absolute;
+ animation: v12 15s ease-in-out infinite;
+}
+@keyframes vv {
+  0% {top: 10vw;
+  left: 3vw;}
+  25% {top: 47vw;
+  left: 84vw;}
+  50% {top: 55vw;
+  left: 3vw;}
+  75% {top: 47vw;
+  left: 84vw;}
+  100% {top: 10vw;
+  left: 3vw;}
+}
+@keyframes v2 {
+  0% {top: 24vw;
+  left: 46vw;}
+  25% {top: 60vw;
+  left: 3vw;}
+  50% {top: 68vw;
+  left: 82vw;}
+  75% {top: 60vw;
+  left: 3vw;}
+  100% {top: 24vw;
+  left: 46vw;}
+}
+@keyframes v3 {
+  0% {top: 28vw;
+  left: 80vw;}
+  25% {top: 16vw;
+  left: -1vw;}
+  50% {top: 5vw;
+  left: 76vw;}
+  75% {top: 16vw;
+  left: -1vw;}
+  100% {top: 28vw;
+  left: 80vw;}
+}
+@keyframes v4 {
+  0% {top: 9vw;
+  left: 63vw;}
+  25% {top: 36vw;
+  left: 2vw;}
+  50% {top: 69vw;
+  left: 61vw;}
+  75% {top: 36vw;
+  left: 2vw;}
+  100% {top: 9vw;
+  left: 63vw;}
+}
+@keyframes v5 {
+  0% {top: 69vw;
+  left: 35vw;}
+  25% {top: 42vw;
+  left: 86vw;}
+  50% {top: 6vw;
+  left: 44vw;}
+  75% {top: 42vw;
+  left: 86vw;}
+  100% {top: 69vw;
+  left: 35vw;}
+}
+@keyframes v6 {
+  0% {top: 37vw;
+  left: 5vw;}
+  25% {top: 30vw;
+  left: 81vw;}
+  50% {top: 7vw;
+  left: 53vw;}
+  75% {top: 30vw;
+  left: 81vw;}
+  100% {top: 37vw;
+  left: 5vw;}
+}
+@keyframes v7 {
+  0% {top: 33vw;
+  left: 24vw;}
+  25% {top: 49vw;
+  left: 83vw;}
+  50% {top: 66vw;
+  left: 61vw;}
+  75% {top: 49vw;
+  left: 83vw;}
+  100% {top: 33vw;
+  left: 24vw;}
+}
+@keyframes v8 {
+  0% {top: 61vw;
+  left: 22vw;}
+  25% {top: 32vw;
+  left: 45vw;}
+  50% {top: 7vw;
+  left: 2vw;}
+  75% {top: 32vw;
+  left: 45vw;}
+  100% {top: 61vw;
+  left: 22vw;}
+}
+@keyframes v9 {
+  0% {top: 62vw;
+  left: 81vw;}
+  25% {top: 38vw;
+  left: 14vw;}
+  50% {top: 6vw;
+  left: 62vw;}
+  75% {top: 38vw;
+  left: 14vw;}
+  100% {top: 62vw;
+  left: 81vw;}
+}
+@keyframes v10 {
+  0% {top: 41vw;
+  left: 63vw;}
+  25% {top: 6vw;
+  left: 85vw;}
+  50% {top: 10vw;
+  left: 7vw;}
+  75% {top: 6vw;
+  left: 85vw;}
+  100% {top: 41vw;
+  left: 63vw;}
+}
+@keyframes v11 {
+  0% {top: 52vw;
+  left: 42vw;}
+  25% {top: 8vw;
+  left: 35vw;}
+  50% {top: 37vw;
+  left: 2vw;}
+  75% {top: 8vw;
+  left: 35vw;}
+  100% {top: 52vw;
+  left: 42vw;}
+}
+@keyframes v12 {
+  0% {top: 9vw;
+  left: 25vw;}
+  25% {top: 61vw;
+  left: 51vw;}
+  50% {top: 48vw;
+  left: 3vw;}
+  75% {top: 61vw;
+  left: 51vw;}
+  100% {top: 9vw;
+  left: 25vw;}
+}

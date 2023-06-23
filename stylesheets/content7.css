@@ -1,0 +1,134 @@
+@media all and (min-width:320px) {
+  body {
+    background: black;
+    font-family: "arsenal";
+  }
+  body img, body p,  body div {
+  position: absolute;
+  }
+  .mainpage {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 5vw;
+  border: 3px solid #FF005C;
+  }
+  nav > .mainpage {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav > .mainpage > a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+  .zdanie1 {
+    height: 47vw;
+    width: 34vw;
+    left:66vw;
+    top:8vw;
+    position: absolute;
+}
+.hv {
+  width: 57vw;
+  font-size: 5vw;
+  color: #FF005C;
+  top: 10.6vw;
+  left: 17vw;
+}
+.hvv {
+  width: 15vw;
+  font-size: 7vw;
+  color: #FF005C;
+  top: 13.6vw;
+  left: 32vw;
+}
+.hvvh {
+  width: 57vw;
+  font-size: 4vw;
+  color: #FF005C;
+  top: 19.6vw;
+  left: 12vw;
+}
+.text9 {
+  width: 49vw;
+    font-size: 3vw;
+    color: white;
+    top: 30.4vw;
+    left: 12vw
+}
+.zz {
+  width: 49vw;
+  font-size: 4vw;
+  color: #FF005C ;
+  top: 61vw;
+  left: 41vw;
+}
+.re {
+  height: 46vw;
+  width: 65vw;
+  left:18vw;
+  top:67vw;
+  position: absolute;
+  filter: blur(5px);
+  transition: 2s;
+}
+.z1 {
+  height: 46vw;
+  width: 65vw;
+  left:18vw;
+  top:111vw;
+  position: absolute;
+  filter: blur(5px);
+  transition: 2s;
+}
+.cs {
+  height: 46vw;
+  width: 65vw;
+  left:18vw;
+  top:155vw;
+  position: absolute;
+  filter: blur(5px);
+  transition: 2s;
+}
+.oo {
+  height: 46vw;
+  width: 65vw;
+  left:18vw;
+  top:199vw;
+  position: absolute;
+  filter: blur(5px);
+  transition: 2s;
+}
+.cf {
+  height: 46vw;
+  width: 65vw;
+  left:18vw;
+  top:243vw;
+  position: absolute;
+  filter: blur(5px);
+  transition: 2s;
+}
+.photos img:hover {
+  filter: blur(0);
+}
+.knop {
+height: 14vw;
+width: 24vw;
+left:40vw;
+top:287vw;
+position: absolute;
+animation: knopp 15s ease-in-out infinite;
+filter: blur(5px);
+transition: 2s;
+}
+@keyframes knopp {
+  0% {left:40vw;}
+  25% {left:76vw;}
+  50% {left: 0vw;}
+  100% {left: 40vw;}
+}
+.knop:hover {
+  filter: blur(0);
